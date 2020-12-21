@@ -33,7 +33,7 @@ class MovieAdapter(private val context : Context, private val movieList: Mutable
 
         holder.txt_name.text = movieList[position].name
         holder.txt_team.text = movieList[position].team
-        //holder.txt_creeatedby = movieList[position].createdby
+        holder.txt_creeatedby.text = movieList[position].createdby
 
     }
 
